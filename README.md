@@ -59,6 +59,17 @@ User/       config.h  servo.c/h  uart.c/h  delay.c/h  main.c
 `config.h` holds every tunable parameter (pulse range, axis IDs, travel limits,
 UART baud rate) so that changing hardware only requires editing one file.
 
+## Documentation
+
+Design and debugging notes (written in Chinese):
+
+| File | Content |
+|---|---|
+| [docs/architecture.md](docs/architecture.md) | Module layout, peripheral allocation, call graph |
+| [docs/workflow.md](docs/workflow.md) | Full execution flow, from power-on to servo motion |
+| [docs/code_notes.md](docs/code_notes.md) | Key functions, parameters, data structures |
+| [docs/debug_log.md](docs/debug_log.md) | Problems encountered and how they were solved |
+
 ## Build
 
 1. Keil MDK 5 with the **STM32F10x Standard Peripheral Library**
