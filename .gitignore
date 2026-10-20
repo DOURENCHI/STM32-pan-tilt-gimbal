@@ -1,0 +1,29 @@
+# ---------- Keil build output ----------
+Objects/
+Listings/
+DebugConfig/
+*.o
+*.d
+*.crf
+*.dep
+*.lnp
+*.axf
+*.hex
+*.map
+*.sct
+*.build_log.htm
+
+# ---------- Keil user / IDE settings ----------
+*.uvguix.*
+*.uvoptx
+*.bak
+
+# ---------- logs ----------
+*.log
+
+# ---------- stray file created by mistake (real one lives in User/) ----------
+/config.h
+
+# ---------- OS ----------
+Thumbs.db
+.DS_Store
